@@ -1,6 +1,11 @@
 # MATLAB-Control-Systems-and-Optimization
 This repository contains two MATLAB projects focused on control laws and one dedicated project exploring optimization techniques
 
+## Contents
+- [Autonomous vehicle control laws](#Autonomous)
+- [Integer Linear Programming](#ILP)       
+- [Vehicle Communications Network Project](#Vehicle_communications)
+
 ## Autonomous vehicle control laws
 
 This project focuses on the development of control laws for autonomous vehicles, specifically aimed at automating parking maneuvers. The study employs a nonlinear bicycle kinematic model to represent the vehicle's dynamics, which is linearized for control purposes. The control strategy implemented is based on Linear Quadratic (LQ) control, allowing for optimal trajectory tracking.
