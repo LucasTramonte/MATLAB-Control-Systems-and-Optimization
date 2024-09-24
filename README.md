@@ -33,8 +33,8 @@ This project explores the application of Integer Linear Programming (ILP) techni
 The ILP problem is defined with the following key components:
 
 **Decision Variables**: 
-$$  x_{n,b}  :   \text{indicates whether item n is placed in box  b (1 if true, 0 otherwise)}.$$ 
-$$  y_b      :   \text{indicates whether box  b is used (1 if true, 0 otherwise)}. $$ 
+$x_{n,b}$  :   indicates whether item n is placed in box  b (1 if true, 0 otherwise).
+$y_b$     : indicates whether box  b is used (1 if true, 0 otherwise). 
 
 **Objective Function**: 
 The goal is to minimize the total number of boxes used:
@@ -45,10 +45,9 @@ $$
 
 
 **Volume Constraints**: 
-The total volume of items in each box must not exceed the box's capacity \( C \):
-$$
-\sum_{n=1}^{N} v_n x_{n,b} \leq C \cdot y_b \quad \forall b \in \{1, \ldots, B\} 
-$$
+The total volume of items in each box must not exceed the box's capacity C :
+
+$$ \sum_{n=1}^{N} v_n x_{n,b} \leq C \cdot y_b \quad \forall b \in \{1, \ldots, B\} $$
 
 
 **Packing Constraints**: 
