@@ -33,7 +33,9 @@ This project explores the application of Integer Linear Programming (ILP) techni
 The ILP problem is defined with the following key components:
 
 **Decision Variables**: 
+
 $x_{n,b}$  :   indicates whether item n is placed in box  b (1 if true, 0 otherwise).
+
 $y_b$     : indicates whether box  b is used (1 if true, 0 otherwise). 
 
 **Objective Function**: 
