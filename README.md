@@ -2,11 +2,11 @@
 This repository contains two MATLAB projects focused on control laws and one dedicated project exploring optimization techniques
 
 ## Contents
-- [Autonomous vehicle control laws](#Autonomous)
-- [Integer Linear Programming](#ILP)       
-- [Vehicle Communications Network Project](#Vehicle_communications)
+- [Autonomous vehicle control laws](#Autonomous_vehicle_control_laws)
+- [Integer Linear Programming](#nteger_Linear_Programming)       
+- [Vehicle Communications Network Project](#Vehicle_Communications_Network_Project)
 
-## Autonomous vehicle control laws
+## Autonomous_vehicle_control_laws
 
 This project focuses on the development of control laws for autonomous vehicles, specifically aimed at automating parking maneuvers. The study employs a nonlinear bicycle kinematic model to represent the vehicle's dynamics, which is linearized for control purposes. The control strategy implemented is based on Linear Quadratic (LQ) control, allowing for optimal trajectory tracking.
 
@@ -29,7 +29,7 @@ The results demonstrate that the actual trajectory of the vehicle closely follow
 - **Simulation Environment**: Utilization of MATLAB and Simulink for modeling and simulation of the vehicle dynamics and control laws.
 - **Performance Analysis**: Evaluation of the controller's performance through graphical representations of the vehicle's trajectory.
 
-## Integer Linear Programming
+## Integer_Linear_Programming
 
 This project explores the application of Integer Linear Programming (ILP) techniques to optimize bin packing problems, which are essential in logistics and inventory management. The focus is on minimizing the number of boxes required to pack a set of items with given volumes while adhering to specific capacity constraints.
 
@@ -75,7 +75,7 @@ The optimal solution found through ILP yielded a total of 18 boxes, confirming t
 - **Heuristic and Optimal Approaches**: The project contrasts greedy heuristic methods with optimal ILP solutions.
 - **Scalability**: The formulation and implementation can be scaled for larger datasets and varying constraints.
 
-## Vehicle Communications Network Project
+## Vehicle_Communications_Network_Project
 
 This repository contains a study on the performance of vehicular communication systems, focusing on the analysis of different access methods, specifically ALOHA and CSMA/CA.
 
